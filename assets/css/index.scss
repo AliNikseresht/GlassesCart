@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: 'Aldrich', sans-serif;
+
+
+}
+
+body{
+    background-color: rgb(59, 58, 58);
+}
+
+.glasses{
+    width: 450px;
+    padding: 10px;
+    background-color: rgba(85, 85, 90, 0.76);
+    border: 2px solid orangered;
+    color: white;
+    border-radius: 4px;
+    position: fixed;
+    top: 15px;
+    right: 15px;
+}
+#final{
+    font-size: 17px;
+    color: orangered;
+    width: 85px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    margin-top: 90px;
+    >div{
+        width: 25%;
+        margin-left: 55px;
+        >img{
+            margin-top: 60px;
+            width: 80%;
+            box-shadow: 2px 4px 120px white;
+            border-radius: 7px;
+        }
+        >button{
+            padding: 10px 25px;
+            background-color: orangered;
+            color: white;
+            border-radius: 14px;
+            cursor: pointer;
+            font-size: 17px;
+            border: 1px solid rgb(219, 219, 219);
+            margin-left: 90px;
+        }
+        h2{
+            color: white;
+            text-shadow: 1px 2px 1px rgb(0, 0, 0);
+            font-size: 25px;
+            padding-bottom: 15px;
+        }
+        h3{
+            font-size: 25px;
+        }
+    }
+}
+
+ul{
+    >li{
+        list-style-type: none;
+        display: flex;
+        height: 100px;
+        overflow: hidden;
+        padding: 2px;
+    }
+    li>*{
+        display: flex;
+        align-items: center;
+        width: 33.3333%;
+        height: 100%;
+        font-size: 20px;
+    }
+    >img{
+        object-fit: cover;
+    }
+}
+
+
+.nik{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 15px;
+    >a{
+        color: white;
+        font-size: 25px;
+        text-decoration: none;
+    }
+}
