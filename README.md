@@ -3,5 +3,5 @@
 - Chaatyo • 2023
 - Technologies Used - html, css, Javascript 
 - Role - Frontend
-• How to reach me : with [instagram](https://www.instagram.com/alinikseresht_web) and [linkedin](https://www.linkedin.com/in/alinikseresht)
+• How to reach me : with [instagram](https://www.instagram.com/alinikseresht_web) and [linkedin](https://www.linkedin.com/in/ali-nikseresht-966560258/)
  ◦ - [Demo Project](https://alinikseresht.github.io/GlassesCart/)
